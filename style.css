@@ -1,0 +1,24 @@
+body {
+    background: #f093fb;
+    background: -webkit-linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    color: #198754;
+}
+
+.todo-close {
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.todo-close:before {
+    content: '\00d7';
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 25px;
+}
